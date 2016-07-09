@@ -37,7 +37,7 @@ public class Robot extends IterativeRobot {
      */
     public void teleopPeriodic() {
         SmartDashboard.putNumber("Joystick Y", joy.getY()); // You should see the joystick Y value come onto the Smart Dashboard.
-        motor.set(0); // The motor is set to 0, which is no movement. Full power forward is 1 and full power reverse is -1.
+        motor.set(.25); // The motor is set to 0.25, which 1/4 power forward. Full power forward is 1 and full power reverse is -1.
     }
     
 }
